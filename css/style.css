@@ -1,0 +1,170 @@
+/* ===== Google Fonts ===== */
+body, h1, h2, h3, h4, h5, h6, p, a, li {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* ===== General Styles ===== */
+body {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    color: #fff;
+    background-color: #111; /* Dark background for neon pop */
+}
+
+a {
+    text-decoration: none;
+}
+
+/* ===== Navbar ===== */
+.navbar {
+    background: rgba(0,0,0,0.85);
+}
+.navbar .nav-link {
+    color: #fff;
+    margin-left: 1rem;
+    transition: all 0.3s ease;
+}
+.navbar .nav-link:hover {
+    color: #00f0ff; /* Neon cyan hover */
+    text-shadow: 0 0 5px #00f0ff, 0 0 10px #00f0ff;
+}
+
+/* ===== Hero Section ===== */
+#hero {
+    position: relative;
+    background: url('../images/hero.jpg') center/cover no-repeat;
+    text-align: center;
+}
+#hero .overlay {
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(0, 0, 0, 0.6);
+}
+#hero h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #00f0ff;
+    text-shadow: 0 0 10px #00f0ff, 0 0 20px #00f0ff;
+}
+#hero p {
+    font-size: 1.25rem;
+    color: #fff;
+    margin-bottom: 2rem;
+    text-shadow: 0 0 5px #00f0ff;
+}
+#hero .btn-primary {
+    background: #00f0ff;
+    border: none;
+    box-shadow: 0 0 10px #00f0ff, 0 0 20px #00f0ff;
+}
+#hero .btn-primary:hover {
+    background: #00d4e5;
+    box-shadow: 0 0 20px #00f0ff, 0 0 30px #00f0ff;
+}
+#hero .btn-outline-light {
+    border-color: #00f0ff;
+    color: #00f0ff;
+    box-shadow: 0 0 5px #00f0ff;
+}
+#hero .btn-outline-light:hover {
+    background: #00f0ff;
+    color: #111;
+    box-shadow: 0 0 20px #00f0ff, 0 0 30px #00f0ff;
+}
+
+/* ===== About Section ===== */
+#about {
+    background: #111;
+    color: #fff;
+}
+#about h2 {
+    color: #00f0ff;
+    text-shadow: 0 0 5px #00f0ff, 0 0 10px #00f0ff;
+}
+#about p, #about li {
+    color: #ccc;
+}
+
+/* ===== Menu Section ===== */
+#menu {
+    background: #222;
+}
+#menu h2 {
+    color: #00f0ff;
+    text-shadow: 0 0 5px #00f0ff;
+}
+#menu .card {
+    background: #111;
+    border: none;
+    transition: all 0.3s ease;
+}
+#menu .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0 15px #00f0ff, 0 0 25px #00f0ff;
+}
+#menu .card-title {
+    color: #00f0ff;
+}
+#menu .card-text {
+    color: #ccc;
+}
+
+/* ===== Testimonials Section ===== */
+#testimonials h2 {
+    color: #00f0ff;
+    text-shadow: 0 0 5px #00f0ff;
+}
+#testimonials .card {
+    background: #111;
+    border: none;
+    padding: 1rem;
+    box-shadow: 0 0 5px #00f0ff;
+    transition: all 0.3s ease;
+}
+#testimonials .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 15px #00f0ff, 0 0 25px #00f0ff;
+}
+#testimonials p {
+    color: #ccc;
+}
+
+/* ===== Contact Section ===== */
+#contact {
+    background: #222;
+}
+#contact h2 {
+    color: #00f0ff;
+    text-shadow: 0 0 5px #00f0ff;
+}
+#contact .form-control {
+    background: #111;
+    border: 1px solid #00f0ff;
+    color: #fff;
+}
+#contact .form-control:focus {
+    box-shadow: 0 0 10px #00f0ff;
+    border-color: #00f0ff;
+}
+#contact button {
+    background: #00f0ff;
+    border: none;
+    box-shadow: 0 0 10px #00f0ff;
+}
+#contact button:hover {
+    background: #00d4e5;
+    box-shadow: 0 0 20px #00f0ff;
+}
+
+/* ===== Footer ===== */
+footer {
+    background: #111;
+}
+footer a {
+    color: #00f0ff;
+    margin: 0 0.5rem;
+}
+footer a:hover {
+    text-shadow: 0 0 5px #00f0ff;
+}
